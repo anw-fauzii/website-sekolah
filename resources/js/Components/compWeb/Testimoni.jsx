@@ -6,7 +6,7 @@ export default function Testimoni() {
                     <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Testimoni</h2>
                     <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Mereka bangga menjadi bagian dari Prima Insani</p>
                 </div>
-                <div id="default-carousel" className=" max-w-full" data-carousel="slide">
+                <div id="default-carousel" className=" max-w-full z-1000 top-0 sticky" data-carousel="slide">
                     <div className="relative h-64 overflow-hidden rounded-lg max-md:h-96">
                         <div className="hidden duration-1000 ease-in-out" data-carousel-item>
                             <figure className="max-w-screen-md mx-auto text-center">
@@ -91,7 +91,8 @@ export default function Testimoni() {
                                         <cite className="ps-3 text-sm text-gray-500 dark:text-gray-400">CEO at Google</cite>
                                     </div>
                                 </figcaption>
-                            </figure></div>
+                            </figure>
+                        </div>
                     </div>
                 </div>
             </div>
